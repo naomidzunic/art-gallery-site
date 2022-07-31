@@ -11,6 +11,7 @@ h1, h2, h3, h4, button {
 
 h1 {
     font-size: 96px;
+    font-weight: 900;
 }
 
 h2 {
@@ -43,50 +44,24 @@ button {
     letter-spacing: 3.64px;
 }
 
-
-/* MOBILE */
-
-.container-content {
- padding: 0 16px;
-}
-
-.container img {
-    width: 100%;
-}
-
-.container-content h1 {
-font-size: 60px;
-padding: 24px 0;
-font-weight: 900;
-}
-
-.content-content p {
-    padding: 32px 0;
-}
-
-.container-content button {
-    background-color: #000;
-    width: 228px;
-}
-
 /* BUTTON 1 */
 
 .button-1 {
     display: flex;
-    padding: 32px 0 120px 0;
+    padding: 32px 0 0 0;
 }
 
 .button-1 button {
     padding: 24px;
+    background-color: #000;
 }
 
 .button-1 button:hover {
     background-color: #D5966C;
-    cursor: pointer;
 }
 
 .right-arrow {
-    padding: 36px 28px;
+    padding: 24px 28px;
     background-color: #D5966C;
     background-image: url(../starter-code/assets/icon-arrow-right.svg);
     background-repeat: no-repeat;
@@ -96,8 +71,117 @@ font-weight: 900;
 
 .right-arrow:hover {
     background-color: #000;
-    cursor: pointer;
 }
+
+/* END BUTTON 1 */
+
+/* ---------------------------HEADER------------------------------- */
+
+/* MOBILE */
+
+.container {
+    margin-left: 16px;
+}
+
+
+#mobile-img {
+    width: 100%;
+}
+
+#tablet-img {
+    display: none;
+}
+
+#desktop-img {
+    display: none;
+}
+
+.container-content h1 {
+font-size: 60px;
+padding: 16px 0;
+}
+
+.container-content p {
+    padding: 16px 16px 0 0;
+}
+
+.container-content button {
+    background-color: #000;
+    width: 228px;
+}
+
+
+/* TABLET */
+
+@media screen and (min-width: 751px) {
+
+    #mobile-img {
+        display: none;
+    }
+    
+    #tablet-img {
+        display: block;
+    }
+    
+    #desktop-img {
+        display: none;
+    }
+
+    .container-flex {
+        display: flex;
+        position: relative;
+        align-items: center;
+    }
+
+    .container {
+        position: absolute;
+        width: 22rem;
+        margin-left: 25rem;
+    }
+    
+}
+
+/* DESKTOP */
+
+@media screen and (min-width: 1439px) {
+    
+    .container-content {
+        border: 2px solid blue;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+
+    }
+
+
+    .container-content h1 {
+        font-size: 96px;
+        padding: 0;
+    }
+    
+    #tablet-img {
+        display: none;
+    }
+    
+    #desktop-img {
+        display: block;
+        background-color: grey;
+        padding-left: 450px;
+    }
+
+    .desktop-text-button {
+        border: 2px solid red;
+        position: absolute;
+        margin-left: 1%;
+    }
+}
+
+/* ---------------------------SECTION------------------------------ */
+
+
+
+
 
 
 

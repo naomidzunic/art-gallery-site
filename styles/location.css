@@ -61,7 +61,7 @@ button {
 .button-2 {
     display: flex;
     padding-bottom: 550px;
-    background-image: url(../starter-code/assets/mobile/image-map@2x.png);
+    background-image: url(../assets/mobile/image-map@2x.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -79,7 +79,7 @@ button {
 .left-arrow {
     padding: 24px 28px;
     background-color: #D5966C;
-    background-image: url(../starter-code/assets/icon-arrow-right.svg);
+    background-image: url(../assets/icon-arrow-right.svg);
     background-repeat: no-repeat;
     background-size: 8px;
     background-position: 50%;
@@ -159,7 +159,7 @@ button {
 .button-2 {
     padding-left: 40px;    
     padding-bottom: 600px;
-        background-image: url(../starter-code/assets/tablet/image-map@2x.png);
+        background-image: url(../assets/tablet/image-map@2x.png);
     }
 
 /* Section */
@@ -213,7 +213,7 @@ button {
     .button-2 {
     padding-left: 156px;    
     padding-bottom: 600px;
-    background-image: url(../starter-code/assets/desktop/image-map@2x.png);
+    background-image: url(../assets/desktop/image-map@2x.png);
         
 }
 

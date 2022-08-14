@@ -71,7 +71,7 @@ button {
 .right-arrow {
     padding: 24px 28px;
     background-color: #D5966C;
-    background-image: url(../starter-code/assets/icon-arrow-right.svg);
+    background-image: url(../assets/icon-arrow-right.svg);
     background-repeat: no-repeat;
     background-size: 8px;
     background-position: 50%;
